@@ -1,0 +1,14 @@
+﻿using System;
+int x1;
+int x2;
+int x3;
+int x;
+Console.WriteLine("Введите первое число");
+x1 =int.Parse (Console.ReadLine());
+Console.WriteLine("Введите второе число");
+x2 = int.Parse(Console.ReadLine());
+Console.WriteLine("Введите третий число");
+x3 = int.Parse(Console.ReadLine());
+x = x2*10+x3;
+x = (x * 10) + x1;
+Console.WriteLine("ответ {0}",x);
