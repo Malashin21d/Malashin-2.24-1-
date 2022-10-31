@@ -1,14 +1,14 @@
-﻿using System;
-int x1;
-int x2;
-int x3;
-int x;
+using System;
+int chislo1;
+int chislo2;
+int chislo3;
+int result;// Добавить переменные
 Console.WriteLine("Введите первое число");
-x1 =int.Parse (Console.ReadLine());
+chislo1 =int.Parse (Console.ReadLine());
 Console.WriteLine("Введите второе число");
-x2 = int.Parse(Console.ReadLine());
+chislo2 = int.Parse(Console.ReadLine());
 Console.WriteLine("Введите третий число");
-x3 = int.Parse(Console.ReadLine());
-x = x2*10+x3;
-x = (x * 10) + x1;
-Console.WriteLine("ответ {0}",x);
+chislo3 = int.Parse(Console.ReadLine());// Ввод чисел 1 2 и 3
+result = chislo2*10+chislo3;
+result = (result * 10) + chislo1;// меняем цифры местами
+Console.WriteLine("ответ {0}",result);// результат
